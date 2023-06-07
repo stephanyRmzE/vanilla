@@ -1,0 +1,49 @@
+.home {
+  background-color: var(--first-gradient);
+  min-height: 100vh;
+  display: grid;
+  align-items: center;
+}
+
+.home__container {
+  background-color: var(--text-color);
+  width: 100%;
+}
+
+.home__text {
+  font-size: 18px;
+  margin: 0 0 2em;
+  max-width: 520px;
+  color: var(--title-color);
+}
+
+.home__title{
+  padding: 3em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.home__logo {
+  padding: 20px 0 0;
+  width: 30em;
+}
+
+
+
+.home__banner {
+  position: absolute;
+  top: 15%;
+  right: 14%;
+  width: 28em;
+  z-index: 9999;
+}
+
+.home__banner-bg{
+  position: absolute;
+    top: 14%;
+    right: 13%;
+    width: 30em;
+  z-index: 0;
+}
